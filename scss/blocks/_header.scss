@@ -1,0 +1,141 @@
+.header__top {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+
+  .header-top__logo-phone {
+    align-items: center;
+  }
+
+  .header__logo {
+
+    &:focus-visible {
+      outline: 0;
+    }
+  }
+
+  .header-top__tel {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666666;
+    transition: color 0.3s ease-in-out;
+
+    &:focus-visible {
+      outline-offset: 5px;
+      outline: 1px solid $additional-accent-color;
+    }
+
+    &:hover {
+      color: $accent-color;
+    }
+
+    &:active {
+      color: $active-color;
+    }
+  }
+
+  .header-top__account {
+
+    .header-top__link {
+      margin-bottom: 6px;
+      align-items: flex-end;
+      font-size: $base-font-size;
+      font-weight: 400;
+      color: $accent-color;
+      transition: color 0.3s ease-in-out;
+
+      svg {
+        margin-right: 6px;
+      }
+
+      .header-top__icon {
+        fill: $accent-color;
+        transition: fill 0.3s ease-in-out;
+      }
+
+      &:focus-visible {
+        outline-offset: 5px;
+        outline: 1px solid $accent-color;
+      }
+
+      &:hover {
+        color: $additional-accent-color;
+
+        .header-top__icon {
+          fill: $additional-accent-color;
+        }
+      }
+
+      &:active {
+        color: $active-color;
+
+        .header-top__icon {
+          fill: $active-color;
+        }
+      }
+    }
+  }
+}
+
+.header__bottom {
+  padding: 14px 45px;
+  align-items: center;
+  background-color: $bg-block-color;
+  border-radius: $base-border-radius;
+
+  .nav__item:not(:last-child) {
+    margin-right: 45px;
+  }
+
+  .nav__item-link {
+    font-size: $base-font-size;
+    font-weight: 400;
+    color: #666666;
+    transition: color 0.3s ease-in-out;
+
+    &:focus-visible {
+      outline-offset: 5px;
+      outline: 1px solid $accent-color;
+    }
+
+    &:hover {
+      color: $accent-color;
+    }
+
+    &:active {
+      color: $active-color;
+    }
+  }
+
+  .bottom__btn-wrapper {
+    margin-left: 114px;
+  }
+
+  .header-bottom__btn{
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    &:nth-child(1) {
+      margin-right: 40px;
+    }
+
+    &:focus-visible {
+      outline: 0;
+    }
+
+    &:focus {
+      color: $focus-btn;
+      background-color: $accent-color;
+    }
+
+    &:hover {
+      color: $hover-btn;
+      background-color: $accent-color;
+    }
+
+    &:active {
+      color: $active-btn;
+      background-color: $active-color;
+    }
+  }
+}

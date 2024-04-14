@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src:local("Muller-Light"),
+   url("/fonts/MullerLight.woff2") format("woff2"),
+   url("/fonts/MullerLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src:local("Muller-Regular"),
+   url("/fonts/MullerRegular.woff2") format("woff2"),
+   url("/fonts/MullerRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src:local("MullerM-Medium"),
+   url("/fonts/MullerMedium.woff2") format("woff2"),
+   url("/fonts/MullerMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src:local("Muller-Bold"),
+   url("/fonts/MullerBold.woff2") format("woff2"),
+   url("/fonts/MullerBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $font-family;
+}
+
+.container {
+  width: $container-width;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.section__title {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  color: $section-title;
+  font-size: $section-title-font-size;
+  font-weight: 400;
+}
+
+.section-offset {
+  margin: $blocks-spacing;
+}
+
+.btn {
+  padding: 13px 20px;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 400;
+  color: $accent-color;
+  border-radius: 10px;
+  border: 1px solid $accent-color;
+  background-color: white;
+}
