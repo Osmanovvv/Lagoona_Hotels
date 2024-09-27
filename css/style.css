@@ -230,10 +230,10 @@ body {
   border-radius: 15px;
 }
 .left-special__card .left-special__item:nth-child(1) {
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("/img/special_item-1.jpg");
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("../img/special_item-1.jpg");
 }
 .left-special__card .left-special__item:nth-child(2) {
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("/img/special_item-2.jpg");
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("../img/special_item-2.jpg");
 }
 .left-special__card .left-special__item .left-special__title {
   margin: 0;
@@ -296,7 +296,7 @@ body {
   margin-left: 24px;
   padding: 212px 229px 40px 45px;
   border-radius: 15px;
-  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/special_item-3.jpg);
+  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(../img/special_item-3.jpg);
 }
 .right-special__card .right-special__title {
   margin: 0;
@@ -457,7 +457,7 @@ body {
   z-index: 1;
 }
 .placement__list .placement__item:last-child {
-  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("/img/placement-item-9.jpg");
+  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("../img/placement-item-9.jpg");
 }
 .placement__list .placement__item .placement-item__img {
   border-radius: 15px 15px 0px 0px;
