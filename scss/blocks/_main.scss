@@ -20,11 +20,11 @@
     border-radius: $base-border-radius;
 
     &:nth-child(1) {
-      background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('/img/special_item-1.jpg');
+      background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('../../img/special_item-1.jpg');
     }
 
     &:nth-child(2) {
-      background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('/img/special_item-2.jpg');
+      background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('../../img/special_item-2.jpg');
     }
 
     .left-special__title {
@@ -101,7 +101,7 @@
   margin-left: 24px;
   padding: 212px 229px 40px 45px;
   border-radius: $base-border-radius;
-  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/special_item-3.jpg);
+  background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url("../../img/special_item-3.jpg");
 
     .right-special__title {
       margin: 0;
@@ -291,7 +291,7 @@
     z-index: 1;
 
     &:last-child {
-      background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('/img/placement-item-9.jpg');
+      background: linear-gradient(0deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url("../../img/placement-item-9.jpg");
     }
 
     .placement-item__img {
